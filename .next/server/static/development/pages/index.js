@@ -109,7 +109,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
-var _jsxFileName = "/Users/annajimenez/Projects/PokedexApp/components/Layout.js";
 
 
 
@@ -117,86 +116,35 @@ var _jsxFileName = "/Users/annajimenez/Projects/PokedexApp/components/Layout.js"
 
 var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1858890473",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-1858890473",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
+    className: "jsx-3805482049"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+    className: "jsx-3805482049"
   }, "Pokedex"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "description",
     content: "a web applicaion to display pokemons ",
-    className: "jsx-1858890473",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    className: "jsx-3805482049"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "robots",
     content: "noindex, nofollow",
-    className: "jsx-1858890473",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+    className: "jsx-3805482049"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     charSet: "utf-8",
-    className: "jsx-1858890473",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+    className: "jsx-3805482049"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "viewport",
     content: "width=device-width",
-    className: "jsx-1858890473",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
+    className: "jsx-3805482049"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    href: "https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css",
     rel: "stylesheet",
-    href: "https://bootswatch.com/4/cerulean/bootstrap.min.css",
-    className: "jsx-1858890473",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1858890473" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
+    integrity: "sha384-ciphE0NCAlD2/N6NUApXAN2dAs/vcSAOTzyE202jJx3oS8n4tAQezRgnlHqcJ59C",
+    crossOrigin: "anonymous",
+    className: "jsx-3805482049"
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3805482049" + " " + "container"
   }, props.children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1858890473",
-    __self: this
-  }, "body{background:#fbf8f8;font:11px menlo;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CdUIsQUFHNEIsbUJBQ0gsZ0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoXCIgLz5cblxuXG4gICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vYm9vdHN3YXRjaC5jb20vNC9jZXJ1bGVhbi9ib290c3RyYXAubWluLmNzc1wiLz5cbiAgICA8L0hlYWQ+XG4gICAgPE5hdmJhci8+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIHtwcm9wcy5jaGlsZHJlbn1cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgYm9keSB7IFxuICAgICAgICBiYWNrZ3JvdW5kOiAjZmJmOGY4O1xuICAgICAgICBmb250OiAxMXB4IG1lbmxvO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7Il19 */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
+    id: "3805482049"
+  }, "body{background:#fbf8f8;font:11px menlo;font-family:Helvetica;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFCdUIsQUFHNEIsbUJBQ0gsZ0JBQ00sc0JBQ3hCIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoXCIgLz5cblxuICAgICAgPGxpbmsgaHJlZj1cImh0dHBzOi8vc3RhY2twYXRoLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN3YXRjaC80LjMuMS9qb3VybmFsL2Jvb3RzdHJhcC5taW4uY3NzXCIgXG4gICAgICByZWw9XCJzdHlsZXNoZWV0XCIgXG4gICAgICBpbnRlZ3JpdHk9XCJzaGEzODQtY2lwaEUwTkNBbEQyL042TlVBcFhBTjJkQXMvdmNTQU9UenlFMjAyakp4M29TOG40dEFRZXpSZ25sSHFjSjU5Q1wiIFxuICAgICAgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIiAvPlxuICAgIDwvSGVhZD5cbiAgICA8TmF2YmFyLz5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgIDwvZGl2PlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICBib2R5IHsgXG4gICAgICAgIGJhY2tncm91bmQ6ICNmYmY4Zjg7XG4gICAgICAgIGZvbnQ6IDExcHggbWVubG87XG4gICAgICAgIGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDsiXX0= */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -216,89 +164,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/annajimenez/Projects/PokedexApp/components/Navbar.js";
 
 
 
 var Navbar = function Navbar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navbar navbar-expand navbar-dark bg-dark mb-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
+    className: "navbar navbar-expand navbar-dark bg-primary mb-4"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "navbar-brand",
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, "Pokedex"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "collapse navbar-collapse",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    href: "#"
+  }, "Pokedex")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "collapse navbar-collapse"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "navbar-nav ml-auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+    className: "navbar-nav ml-auto"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+    className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
+    href: "/about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
+    className: "nav-link"
   }, "About")))))));
 };
 
@@ -326,12 +214,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _utils_pokeImage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../utils/pokeImage */ "./utils/pokeImage.js");
 
 
 
 
 
-var _jsxFileName = "/Users/annajimenez/Projects/PokedexApp/components/Pokemon/Pokemon.js";
+
 
 
 
@@ -365,9 +254,7 @@ function (_Component) {
           url = _this$props.url,
           name = _this$props.name;
       var pokeId = url.split('/')[url.split('/').length - 2];
-      var imgUrl = "/static/sprites/".concat(pokeId, ".png"); // const imgUrl = `http://pokestadium.com/sprites/xy/${name}.gif`;
-      // const imgUrl = `https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/${pokeId}.png?raw=true`;
-
+      var imgUrl = Object(_utils_pokeImage__WEBPACK_IMPORTED_MODULE_8__["getPokeImg"])(pokeId);
       this.setState({
         imgUrl: imgUrl,
         pokeId: pokeId
@@ -383,98 +270,24 @@ function (_Component) {
       var _this$state = this.state,
           pokeId = _this$state.pokeId,
           imgUrl = _this$state.imgUrl;
-      if (!this.props) return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }, "Error with data"));
+      if (!this.props) return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", null, "Error with data"));
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-392504929" + " " + "col-sm-6 col-md-4 col-lg-3 mt-4",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
+        className: "jsx-207563920" + " " + "col-sm-6 col-md-4 col-lg-3 mt-4"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/pokemon?id=".concat(pokeId)
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-392504929" + " " + "card",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
+        className: "jsx-207563920" + " " + "card poke-card"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: imgUrl || null,
-        alt: name // onLoad={()=>this.setState({imageLoading:false})}
-        // onError={()=>this.setState({errorImg:true})}
-        ,
-        className: "jsx-392504929" + " " + "card-img-top d-block mx-auto mt-2 pokeImg",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
+        alt: name,
+        className: "jsx-207563920" + " " + "card-img-top d-block mx-auto mt-2 pokeImg"
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-392504929" + " " + "card-block",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        className: "jsx-392504929" + " " + "card-title mt-3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, name), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-392504929" + " " + "card-text",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, url)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-392504929" + " " + "card-footer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        className: "jsx-392504929" + " " + "btn btn-secondary float-right btn-sm",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/pokemonDetails?id=".concat(pokeId),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        href: "/".concat(pokeId),
-        className: "jsx-392504929",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, "Info"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "392504929",
-        __self: this
-      }, ".pokeImg.jsx-392504929{width:auto;}body.jsx-392504929{background-color:#cdcdcd;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvUG9rZW1vbi9Qb2tlbW9uLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTREYSxBQUc0QixBQUljLFdBRjdCLGNBR0MiLCJmaWxlIjoiL1VzZXJzL2FubmFqaW1lbmV6L1Byb2plY3RzL1Bva2VkZXhBcHAvY29tcG9uZW50cy9Qb2tlbW9uL1Bva2Vtb24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuY2xhc3MgUG9rZW1vbiBleHRlbmRzIENvbXBvbmVudCB7XG4gICAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICAgICAgc3VwZXIocHJvcHMpO1xuICAgICAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgICAgICAgZXJyb3JzOiB7fSxcbiAgICAgICAgICAgIG5hbWU6ICcnLFxuICAgICAgICAgICAgaW1nVXJsOiAnJyxcbiAgICAgICAgICAgIHBva2VJZDogJycsXG4gICAgICAgICAgICBpbWFnZUxvYWRpbmc6dHJ1ZSxcbiAgICAgICAgICAgIGVycm9ySW1nOiBmYWxzZVxuICAgICAgICB9O1xuXG4gICAgfVxuXG5cbiAgICBjb21wb25lbnREaWRNb3VudCgpIHtcbiAgICAgICAgY29uc3QgeyB1cmwsIG5hbWUgfSA9IHRoaXMucHJvcHM7XG4gICAgICAgIGNvbnN0IHBva2VJZCA9IHVybC5zcGxpdCgnLycpW3VybC5zcGxpdCgnLycpLmxlbmd0aCAtIDJdO1xuICAgICAgICBjb25zdCBpbWdVcmwgPSBgL3N0YXRpYy9zcHJpdGVzLyR7cG9rZUlkfS5wbmdgO1xuICAgICAgICAvLyBjb25zdCBpbWdVcmwgPSBgaHR0cDovL3Bva2VzdGFkaXVtLmNvbS9zcHJpdGVzL3h5LyR7bmFtZX0uZ2lmYDtcbiAgICAgICAgLy8gY29uc3QgaW1nVXJsID0gYGh0dHBzOi8vZ2l0aHViLmNvbS9Qb2tlQVBJL3Nwcml0ZXMvYmxvYi9tYXN0ZXIvc3ByaXRlcy9wb2tlbW9uLyR7cG9rZUlkfS5wbmc/cmF3PXRydWVgO1xuICAgICAgICB0aGlzLnNldFN0YXRlKHtpbWdVcmwsIHBva2VJZH0pO1xuICAgIH1cblxuICAgIHJlbmRlcigpIHtcbiAgICAgICAgY29uc3QgeyBwb2tlbW9uRGF0YSwgbmFtZSwgdXJsIH0gPSB0aGlzLnByb3BzO1xuICAgICAgICBjb25zdCB7IHBva2VJZCwgaW1nVXJsIH0gPSB0aGlzLnN0YXRlO1xuXG4gICAgICAgIGlmICghdGhpcy5wcm9wcykgcmV0dXJuIChcbiAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgPHA+RXJyb3Igd2l0aCBkYXRhPC9wPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICk7XG5cbiAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLXNtLTYgY29sLW1kLTQgY29sLWxnLTMgbXQtNFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYXJkXCIgID5cbiAgICAgICAgICAgICAgICA8aW1nIFxuICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJjYXJkLWltZy10b3AgZC1ibG9jayBteC1hdXRvIG10LTIgcG9rZUltZ1wiIFxuICAgICAgICAgICAgICAgICAgICBzcmM9e2ltZ1VybCB8fCBudWxsfVxuICAgICAgICAgICAgICAgICAgICBhbHQ9e25hbWV9XG4gICAgICAgICAgICAgICAgICAgIC8vIG9uTG9hZD17KCk9PnRoaXMuc2V0U3RhdGUoe2ltYWdlTG9hZGluZzpmYWxzZX0pfVxuICAgICAgICAgICAgICAgICAgICAvLyBvbkVycm9yPXsoKT0+dGhpcy5zZXRTdGF0ZSh7ZXJyb3JJbWc6dHJ1ZX0pfVxuICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYXJkLWJsb2NrXCI+XG4gICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9XCJjYXJkLXRpdGxlIG10LTNcIj57bmFtZX08L2g0PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtdGV4dFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAge3VybH0gXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZC1mb290ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG4gYnRuLXNlY29uZGFyeSBmbG9hdC1yaWdodCBidG4tc21cIj5cbiAgICAgICAgICAgICAgICAgICAgPExpbmsgIGhyZWY9e2AvcG9rZW1vbkRldGFpbHM/aWQ9JHtwb2tlSWR9YH0gPjxhIGhyZWY9e2AvJHtwb2tlSWR9YH0+SW5mbzwvYT48L0xpbms+XG4gICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAge2BcbiAgICAgICAgICAgIC5wb2tlSW1ne1xuICAgICAgICAgICAgICAgIHdpZHRoOiBhdXRvO1xuXG4gICAgICAgICAgICB9XG4gICAgICAgICAgICBib2R5IHtcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjY2RjZGNkO1xuICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGB9XG4gICAgICAgICAgICA8L3N0eWxlPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICApO1xuICAgIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgUG9rZW1vbjsiXX0= */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Pokemon/Pokemon.js */"));
+        className: "jsx-207563920" + " " + "card-block"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h6", {
+        className: "jsx-207563920" + " " + "card-title text-center  mt-2"
+      }, pokeId, ". ", name.toUpperCase())))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "207563920"
+      }, ".pokeImg.jsx-207563920{width:auto;}body.jsx-207563920{background-color:#cdcdcd;}.poke-card.jsx-207563920{border-radius:2px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);-webkit-transition:all 0.56s cubic-bezier(0.25,0.8,0.25,1);transition:all 0.56s cubic-bezier(0.25,0.8,0.25,1);max-width:500px;padding:40px;margin:10px auto;cursor:pointer;}.poke-card.jsx-207563920:hover,.poke-card.jsx-207563920:focus{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);}.poke-card.jsx-207563920:focus-within{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvUG9rZW1vbi9Qb2tlbW9uLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJEcUIsQUFHd0MsQUFJYyxBQUdQLEFBWUssQUFLQSxXQXRCM0IsT0FNb0IsT0FIcEIsU0FJNEUsbUNBVzVFLEFBS0EsOEJBZjBELDhHQUN0QyxnQkFDSCxhQUNJLGlCQUNGLGVBQ25CIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvUG9rZW1vbi9Qb2tlbW9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5pbXBvcnQgeyBnZXRQb2tlSW1nIH0gZnJvbSAnLi4vLi4vdXRpbHMvcG9rZUltYWdlJztcblxuY2xhc3MgUG9rZW1vbiBleHRlbmRzIENvbXBvbmVudCB7XG4gICAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICAgICAgc3VwZXIocHJvcHMpO1xuICAgICAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgICAgICAgZXJyb3JzOiB7fSxcbiAgICAgICAgICAgIG5hbWU6ICcnLFxuICAgICAgICAgICAgaW1nVXJsOiAnJyxcbiAgICAgICAgICAgIHBva2VJZDogJycsXG4gICAgICAgICAgICBpbWFnZUxvYWRpbmc6IHRydWUsXG4gICAgICAgICAgICBlcnJvckltZzogZmFsc2VcbiAgICAgICAgfTtcblxuICAgIH1cblxuXG4gICAgY29tcG9uZW50RGlkTW91bnQoKSB7XG4gICAgICAgIGNvbnN0IHsgdXJsLCBuYW1lIH0gPSB0aGlzLnByb3BzO1xuICAgICAgICBjb25zdCBwb2tlSWQgPSB1cmwuc3BsaXQoJy8nKVt1cmwuc3BsaXQoJy8nKS5sZW5ndGggLSAyXTtcbiAgICAgICAgY29uc3QgaW1nVXJsID0gZ2V0UG9rZUltZyhwb2tlSWQpO1xuICAgICAgICB0aGlzLnNldFN0YXRlKHsgaW1nVXJsLCBwb2tlSWQgfSk7XG4gICAgfVxuXG4gICAgcmVuZGVyKCkge1xuICAgICAgICBjb25zdCB7IHBva2Vtb25EYXRhLCBuYW1lLCB1cmwgfSA9IHRoaXMucHJvcHM7XG4gICAgICAgIGNvbnN0IHsgcG9rZUlkLCBpbWdVcmwgfSA9IHRoaXMuc3RhdGU7XG5cbiAgICAgICAgaWYgKCF0aGlzLnByb3BzKSByZXR1cm4gKFxuICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICA8cD5FcnJvciB3aXRoIGRhdGE8L3A+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgKTtcblxuICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtc20tNiBjb2wtbWQtNCBjb2wtbGctMyBtdC00XCI+XG4gICAgICAgICAgICAgPExpbmsgaHJlZj17YC9wb2tlbW9uP2lkPSR7cG9rZUlkfWB9PlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZCBwb2tlLWNhcmRcIiAgPlxuICAgICAgICAgICAgICAgICAgICA8aW1nXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJjYXJkLWltZy10b3AgZC1ibG9jayBteC1hdXRvIG10LTIgcG9rZUltZ1wiXG4gICAgICAgICAgICAgICAgICAgICAgICBzcmM9e2ltZ1VybCB8fCBudWxsfVxuICAgICAgICAgICAgICAgICAgICAgICAgYWx0PXtuYW1lfVxuICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtYmxvY2tcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxoNiBjbGFzc05hbWU9XCJjYXJkLXRpdGxlIHRleHQtY2VudGVyICBtdC0yXCI+e3Bva2VJZH0uIHtuYW1lLnRvVXBwZXJDYXNlKCl9PC9oNj5cbiAgICAgICAgICAgICAgICAgICAgICAgIHsvKiA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtdGV4dCBteC1hdXRvXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge3VybH1cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PiAqL31cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIHsvKiA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtZm9vdGVyXCI+ICovfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIDxhPntwb2tlSWR9LntuYW1lfSBkZXRhaWxzPC9hPiAqL31cbiAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIHsvKiA8L2Rpdj4gKi99XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgICAgICAgICAgICAgIHtgXG4gICAgICAgICAgICAgICAgICAgICAgICAucG9rZUltZ3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogYXV0bztcblxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgYm9keSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2NkY2RjZDtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIC5wb2tlLWNhcmQge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDJweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAjZmZmO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMTIpLCAwIDFweCAycHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC41NnMgY3ViaWMtYmV6aWVyKDAuMjUsIDAuOCwgMC4yNSwgMSk7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOiA1MDBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiA0MHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMTBweCBhdXRvO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgLnBva2UtY2FyZDpob3ZlciwgLnBva2UtY2FyZDpmb2N1cyB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAxNHB4IDI4cHggcmdiYSgwLCAwLCAwLCAwLjI1KSwgMCAxMHB4IDEwcHhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmdiYSgwLCAwLCAwLCAwLjIyKTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgLnBva2UtY2FyZDpmb2N1cy13aXRoaW4ge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMTRweCAyOHB4IHJnYmEoMCwgMCwgMCwgMC4yNSksIDAgMTBweCAxMHB4XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJnYmEoMCwgMCwgMCwgMC4yMik7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICBgfVxuICAgICAgICAgICAgICAgIDwvc3R5bGU+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgKTtcbiAgICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFBva2Vtb247Il19 */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Pokemon/Pokemon.js */"));
     }
   }]);
 
@@ -498,23 +311,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _Pokemon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Pokemon */ "./components/Pokemon/Pokemon.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Pokemon__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Pokemon */ "./components/Pokemon/Pokemon.js");
 
 
 
 
 
-var _jsxFileName = "/Users/annajimenez/Projects/PokedexApp/components/Pokemon/PokemonList.js";
+
+
 
 
 
 var PokemonList =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(PokemonList, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(PokemonList, _Component);
 
   function PokemonList(props) {
     var _this;
@@ -522,8 +338,17 @@ function (_Component) {
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, PokemonList);
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(PokemonList).call(this, props));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleClick", function (event) {
+      _this.setState({
+        currentPage: Number(event.target.id)
+      });
+    });
+
     _this.state = {
-      errors: {}
+      errors: {},
+      currentPage: 1,
+      itemsPerPage: 40
     };
     return _this;
   }
@@ -531,72 +356,50 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(PokemonList, [{
     key: "render",
     value: function render() {
-      var pokemonData = this.props.pokemonData;
-      if (!pokemonData) return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "Error with data")); // console.log(pokemonData.pokemon_entries);
+      var _this2 = this;
 
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, pokemonData ? pokemonData.pokemon_entries.map(function (poke, i) {
-        // pokemonData.results.map((poke, i) => {
-        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Pokemon__WEBPACK_IMPORTED_MODULE_6__["default"] // key={i}
-        // name={poke.name}
-        // url = {poke.url}
-        , {
+      var pokemonData = this.props.pokemonData;
+      var _this$state = this.state,
+          currentPage = _this$state.currentPage,
+          itemsPerPage = _this$state.itemsPerPage;
+      if (!this.props.pokemonData) return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Error with data")); // Logic for displaying current items
+
+      var indexOfLastItem = currentPage * itemsPerPage;
+      var indexOfFirstItem = indexOfLastItem - itemsPerPage;
+      var currentItems = pokemonData && pokemonData.pokemon_entries.slice(indexOfFirstItem, indexOfLastItem);
+      var renderItems = currentItems.map(function (poke, i) {
+        return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Pokemon__WEBPACK_IMPORTED_MODULE_8__["default"], {
           key: i,
           name: poke.pokemon_species.name,
           url: poke.pokemon_species.url,
-          pokeId: poke.entry_number,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 29
-          },
-          __self: this
+          pokeId: poke.entry_number
         });
-      }) : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, " Loading ")) // <div className="row">
-      //   {(pokemonData && pokemonData.pokemon_entries) ? (
-      //     pokemonData.pokemon_entries.map((poke, i) => {
-      //     return (
-      //       <Pokemon
-      //         key={i}
-      //         name={poke.pokemon_species.name}
-      //         url = {poke.pokemon_species.url}
-      //         pokeId = {poke.entry_number}
-      //       />
-      //     );
-      //   })) : (
-      //     <h1> Loading </h1>
-      //   )
-      // }
-      // </div>
-      ;
+      }); // Logic for displaying page numbers
+
+      var pageNumbers = [];
+
+      for (var i = 1; i <= Math.ceil(pokemonData.pokemon_entries.length / itemsPerPage); i++) {
+        pageNumbers.push(i);
+      }
+
+      var renderPageNumbers = pageNumbers.map(function (number) {
+        return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
+          className: "button is-light mr-2",
+          key: number,
+          id: number,
+          onClick: _this2.handleClick
+        }, number);
+      });
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row"
+      }, renderItems), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row mt-5 mb-5"
+      }, renderPageNumbers));
     }
   }]);
 
   return PokemonList;
-}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (PokemonList);
 
@@ -875,6 +678,36 @@ function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
   return Constructor;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
 }
 
 /***/ }),
@@ -2399,6 +2232,22 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
 
+
+/***/ }),
+
+/***/ "./utils/pokeImage.js":
+/*!****************************!*\
+  !*** ./utils/pokeImage.js ***!
+  \****************************/
+/*! exports provided: getPokeImg */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPokeImg", function() { return getPokeImg; });
+var getPokeImg = function getPokeImg(id) {
+  return "/static/sprites/".concat(id, ".png");
+};
 
 /***/ }),
 

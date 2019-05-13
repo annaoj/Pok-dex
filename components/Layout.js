@@ -10,8 +10,10 @@ const Layout = (props) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width" />
 
-
-      <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css"/>
+      <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-ciphE0NCAlD2/N6NUApXAN2dAs/vcSAOTzyE202jJx3oS8n4tAQezRgnlHqcJ59C" 
+      crossOrigin="anonymous" />
     </Head>
     <Navbar/>
     <div className="container">
@@ -21,6 +23,7 @@ const Layout = (props) => (
       body { 
         background: #fbf8f8;
         font: 11px menlo;
+        font-family: Helvetica;
       }
     `}</style>
   </div>

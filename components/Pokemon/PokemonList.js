@@ -5,61 +5,74 @@ class PokemonList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      errors: {}
+      errors: {},
+      currentPage: 1,
+      itemsPerPage: 40
     };
 
   }
+  handleClick = (event) => {
+    this.setState({
+      currentPage: Number(event.target.id)
+    });
+  }
 
   render() {
-    const { pokemonData } = this.props;
-    if (!pokemonData) return (
+    const {pokemonData} = this.props;
+    const { currentPage, itemsPerPage } = this.state;
+
+    if (!this.props.pokemonData) return (
       <div>
         <p>Error with data</p>
       </div>
     );
 
-    // console.log(pokemonData.pokemon_entries);
+    // Logic for displaying current items
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentItems = pokemonData && pokemonData.pokemon_entries.slice(indexOfFirstItem, indexOfLastItem);
 
-    return (
-      <div className="row">
-      {pokemonData ? (
-         pokemonData.pokemon_entries.map((poke, i) => {
-        // pokemonData.results.map((poke, i) => {
-        return (
-          <Pokemon
-            // key={i}
-            // name={poke.name}
-            // url = {poke.url}
+    const renderItems = currentItems.map((poke, i) => {
+      return (
+            <Pokemon
               key={i}
               name={poke.pokemon_species.name}
-              url = {poke.pokemon_species.url}
-              pokeId = {poke.entry_number}
-      
-          />
+              url={poke.pokemon_species.url}
+              pokeId={poke.entry_number}
 
-        );
-      })) : (
-        <h1> Loading </h1>
+            />
       )
-    }
-    </div>
-      // <div className="row">
-      //   {(pokemonData && pokemonData.pokemon_entries) ? (
-      //     pokemonData.pokemon_entries.map((poke, i) => {
-      //     return (
-      //       <Pokemon
-      //         key={i}
-      //         name={poke.pokemon_species.name}
-      //         url = {poke.pokemon_species.url}
-      //         pokeId = {poke.entry_number}
-      //       />
+    });
 
-      //     );
-      //   })) : (
-      //     <h1> Loading </h1>
-      //   )
-      // }
-      // </div>
+
+    // Logic for displaying page numbers
+    const pageNumbers = [];
+    for (let i = 1; i <= Math.ceil(pokemonData.pokemon_entries.length / itemsPerPage); i++) {
+      pageNumbers.push(i);
+    }
+    
+    const renderPageNumbers = pageNumbers.map(number => {
+      return (
+        <button
+        className="button is-light mr-2"
+          key={number}
+          id={number}
+          onClick={this.handleClick}
+        >
+          {number}
+        </button>
+      );
+    });
+
+    return (
+      <div>
+         <div className="row">
+          {renderItems}
+       </div>
+        <div className="row mt-5 mb-5" >
+         {renderPageNumbers}
+        </div>
+      </div>
     );
   }
 }

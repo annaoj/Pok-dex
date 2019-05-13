@@ -2,14 +2,14 @@ import Link from 'next/link';
 
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
+  <nav className="navbar navbar-expand navbar-dark bg-primary mb-4">
     <div className="container">
-      <a className="navbar-brand" href="#">Pokedex</a>
+    <Link href="/"><a className="navbar-brand" href="#">Pokedex</a></Link>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link href="/"><a className="nav-link">Home</a></Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link href="/about"><a className="nav-link">About</a></Link>
           </li>
@@ -17,6 +17,7 @@ const Navbar = () => (
       </div>
     </div>
   </nav>
+  
 );
 
 export default Navbar;
