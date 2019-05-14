@@ -27,7 +27,7 @@ class PokemonList extends Component {
       </div>
     );
 
-    // Logic for displaying current items
+
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     const currentItems = pokemonData && pokemonData.pokemon_entries.slice(indexOfFirstItem, indexOfLastItem);
@@ -45,7 +45,7 @@ class PokemonList extends Component {
     });
 
 
-    // Logic for displaying page numbers
+    //Display page numbers
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(pokemonData.pokemon_entries.length / itemsPerPage); i++) {
       pageNumbers.push(i);

@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "nodemon server.js",
     "start": "NODE_ENV=production node server.js",
     "build": "next build",
-    "deploy": "now --public"
+    "heroku-postbuild": "next build"
   },
   "repository": {
     "type": "git",
