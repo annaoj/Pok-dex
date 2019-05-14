@@ -23,26 +23,26 @@ The app uses PokéAPI (https://pokeapi.co/) and National Pokèdex (https://pokea
 http://pokemon-national.herokuapp.com/
 
 ## Progressive webapp
-### Works offline using ServiceWorker
+Works offline using ServiceWorker
 
 ## Unit test 
-### Jest/Enzyme are used for init testing pages and components
-
-
+Jest/Enzyme are used for init testing pages and components
 
 ## Build
-* First install dependencies: 
-    * npm install
 
-    * npm run build
+Don't forget install dependencies first : npm install
+  ~~~~
+ npm run build
 
-    * npm start
+ npm start
+ ~~~~
 
 
 ## Develop
-* First install dependencies: 
-    * npm install
+Don't forget install dependencies first : npm install
 
-    * npm run dev
+  ~~~~
+npm run dev
+  ~~~~
 
 
