@@ -1,7 +1,6 @@
 const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
 const withOptimizedImages = require('next-optimized-images');
 const webpack = require('webpack');
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = withOptimizedImages(
   
@@ -34,9 +33,9 @@ module.exports = withOptimizedImages(
             })
          );
 
-         config.optimization.minimizer.push(
-            new OptimizeCSSAssetsPlugin({})
-         );
+         // config.optimization.minimizer.push(
+         //    new OptimizeCSSAssetsPlugin({})
+         // );
 
          return config
       }
