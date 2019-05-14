@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { getPokeImg } from '../../utils/pokeImage';
+import { getPokeImg, getImgFromUrl } from '../../utils/pokeImage';
 import { PokeTypeColors } from '../../utils/pokeColor';
 class PokeInfo extends Component {
     constructor(props) {
@@ -152,7 +152,6 @@ class PokeInfo extends Component {
         //type
         const renderTypes = this.state.types.map(type => {
             return (
-
                 <div
                     key={type}
                     className="col-5 ml-2 text-center"
@@ -168,8 +167,7 @@ class PokeInfo extends Component {
         });
 
         //stats
-        const renderStats = Object.keys(this.state.stats).map(stat => {
-            console.log(stats[stat]);
+        const renderStats = Object.keys(this.state.stats).map((stat, index) => {
             let name = '';
             switch (stat) {
                 case 'stk':
@@ -183,7 +181,7 @@ class PokeInfo extends Component {
             }
 
             return (
-                <div className="row">
+                <div key={index} className="row">
                     <div className='col-md-3 '>
                         <p className="ml-3 ">{name.toUpperCase()}</p>
                     </div>
@@ -207,6 +205,7 @@ class PokeInfo extends Component {
                 </div>
             )
         })
+
 
         return (
             <div className="col-12 col-sm-10 col-md-8 mx-auto">
@@ -369,17 +368,48 @@ class PokeInfo extends Component {
 
                     </section>
 
-                    <section>
-                        <div
-                            className="sectionHeader mb-3"
-                            style={{
-                                backgroundColor: this.state.bkgColor,
-                                color: 'white',
-                                padding: '4px'
-                            }}>
-                            Evolution
+
+                    {speciesDetails.evolves_from_species &&
+                        <div>
+                            <div
+                                className="sectionHeader mb-3"
+                                style={{
+                                    backgroundColor: this.state.bkgColor,
+                                    color: 'white',
+                                    padding: '4px'
+                                }}>
+                                Evolution
+                         </div>
+                            <div className='row'>
+                                <div className='col-4 mx-auto'>
+                                    <img
+                                        className="  mx-auto mt-2 pokeImg"
+                                        src={getImgFromUrl(speciesDetails.evolves_from_species.url) || null}
+                                        alt={speciesDetails.evolves_from_species.name}
+                                    />
+
+                                </div>
+                                <div className='col-2 '>
+                                    <img
+                                        className="mx-auto mt-5 arrowImg"
+                                        src='/static/icons/arrow.png'
+                                        alt={speciesDetails.name}
+                                    />
+                                </div>
+                                <div className='col-4 mx-auto'>
+                                    <img
+                                        className="mx-auto mt-2 pokeImg"
+                                        src={imgUrl || null}
+                                        alt={speciesDetails.name}
+                                    />
+
+                                </div>
+                                <div className='row mx-auto'>
+                                    <p className="ml-3">{speciesDetails.evolves_from_species.name} evolves to {speciesDetails.name}</p>
+                                </div>
+                            </div>
                         </div>
-                    </section>
+                    }
                 </div>
                 <style jsx>
                     {`
@@ -414,6 +444,9 @@ class PokeInfo extends Component {
                             padding: 5px;
                             font-size: 18px;
                             margin: auto 5px ;
+                        }
+                        .arrowImg{
+                            width: 15px;
                         }
                      `}
                 </style>

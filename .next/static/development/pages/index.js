@@ -39,19 +39,17 @@ var Layout = function Layout(props) {
     className: "jsx-3805482049"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "viewport",
-    content: "width=device-width",
+    content: "width=device-width, initial-scale=1",
     className: "jsx-3805482049"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
-    href: "https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css",
-    rel: "stylesheet",
-    integrity: "sha384-ciphE0NCAlD2/N6NUApXAN2dAs/vcSAOTzyE202jJx3oS8n4tAQezRgnlHqcJ59C",
-    crossOrigin: "anonymous",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
+    type: "text/javascript",
+    src: "node_modules/bootstrap/dist/js/bootstrap.min.js",
     className: "jsx-3805482049"
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3805482049" + " " + "container"
   }, props.children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3805482049"
-  }, "body{background:#fbf8f8;font:11px menlo;font-family:Helvetica;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFCdUIsQUFHNEIsbUJBQ0gsZ0JBQ00sc0JBQ3hCIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoXCIgLz5cblxuICAgICAgPGxpbmsgaHJlZj1cImh0dHBzOi8vc3RhY2twYXRoLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN3YXRjaC80LjMuMS9qb3VybmFsL2Jvb3RzdHJhcC5taW4uY3NzXCIgXG4gICAgICByZWw9XCJzdHlsZXNoZWV0XCIgXG4gICAgICBpbnRlZ3JpdHk9XCJzaGEzODQtY2lwaEUwTkNBbEQyL042TlVBcFhBTjJkQXMvdmNTQU9UenlFMjAyakp4M29TOG40dEFRZXpSZ25sSHFjSjU5Q1wiIFxuICAgICAgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIiAvPlxuICAgIDwvSGVhZD5cbiAgICA8TmF2YmFyLz5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgIDwvZGl2PlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICBib2R5IHsgXG4gICAgICAgIGJhY2tncm91bmQ6ICNmYmY4Zjg7XG4gICAgICAgIGZvbnQ6IDExcHggbWVubG87XG4gICAgICAgIGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDsiXX0= */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
+  }, "body{background:#fbf8f8;font:11px menlo;font-family:Helvetica;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCdUIsQUFHNEIsbUJBQ0gsZ0JBQ00sc0JBQ3hCIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgPHNjcmlwdCB0eXBlPVwidGV4dC9qYXZhc2NyaXB0XCIgc3JjPVwibm9kZV9tb2R1bGVzL2Jvb3RzdHJhcC9kaXN0L2pzL2Jvb3RzdHJhcC5taW4uanNcIj48L3NjcmlwdD5cblxuICAgICAgey8qIDxsaW5rIGhyZWY9XCJodHRwczovL3N0YWNrcGF0aC5ib290c3RyYXBjZG4uY29tL2Jvb3Rzd2F0Y2gvNC4zLjEvam91cm5hbC9ib290c3RyYXAubWluLmNzc1wiIFxuICAgICAgcmVsPVwic3R5bGVzaGVldFwiIFxuICAgICAgaW50ZWdyaXR5PVwic2hhMzg0LWNpcGhFME5DQWxEMi9ONk5VQXBYQU4yZEFzL3ZjU0FPVHp5RTIwMmpKeDNvUzhuNHRBUWV6UmdubEhxY0o1OUNcIiBcbiAgICAgIGNyb3NzT3JpZ2luPVwiYW5vbnltb3VzXCIgLz4gKi99XG4gICAgPC9IZWFkPlxuICAgIDxOYXZiYXIvPlxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICB7cHJvcHMuY2hpbGRyZW59XG4gICAgPC9kaXY+XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIGJvZHkgeyBcbiAgICAgICAgYmFja2dyb3VuZDogI2ZiZjhmODtcbiAgICAgICAgZm9udDogMTFweCBtZW5sbztcbiAgICAgICAgZm9udC1mYW1pbHk6IEhlbHZldGljYTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0OyJdfQ== */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -93,7 +91,7 @@ var Navbar = function Navbar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link"
+    className: "nav-link active"
   }, "About")))))));
 };
 
@@ -269,8 +267,7 @@ function (_Component) {
       var _this$state = this.state,
           currentPage = _this$state.currentPage,
           itemsPerPage = _this$state.itemsPerPage;
-      if (!this.props.pokemonData) return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Error with data")); // Logic for displaying current items
-
+      if (!this.props.pokemonData) return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Error with data"));
       var indexOfLastItem = currentPage * itemsPerPage;
       var indexOfFirstItem = indexOfLastItem - itemsPerPage;
       var currentItems = pokemonData && pokemonData.pokemon_entries.slice(indexOfFirstItem, indexOfLastItem);
@@ -281,7 +278,7 @@ function (_Component) {
           url: poke.pokemon_species.url,
           pokeId: poke.entry_number
         });
-      }); // Logic for displaying page numbers
+      }); //Display page numbers
 
       var pageNumbers = [];
 
@@ -13656,13 +13653,18 @@ function (_Component) {
 /*!****************************!*\
   !*** ./utils/pokeImage.js ***!
   \****************************/
-/*! exports provided: getPokeImg */
+/*! exports provided: getPokeImg, getImgFromUrl */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPokeImg", function() { return getPokeImg; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getImgFromUrl", function() { return getImgFromUrl; });
 var getPokeImg = function getPokeImg(id) {
+  return "/static/sprites/".concat(id, ".png");
+};
+var getImgFromUrl = function getImgFromUrl(url) {
+  var id = url.split('/')[url.split('/').length - 2];
   return "/static/sprites/".concat(id, ".png");
 };
 
