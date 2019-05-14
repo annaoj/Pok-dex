@@ -20,7 +20,7 @@ const Layout = (props) => (
     <style jsx global>{`
       body { 
         background: #fbf8f8;
-        font: 11px menlo;
+        font: 14px menlo;
         font-family: Helvetica;
       }
       .bg-primary {

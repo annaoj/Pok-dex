@@ -8,7 +8,7 @@ const Navbar = () => (
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link  href="/about"><a className="nav-link active">About</a></Link>
+            <Link  href="https://github.com/annaoj/Pok-dex/blob/master/README.md"><a className="nav-link active">About</a></Link>
           </li>
         </ul>
       </div>

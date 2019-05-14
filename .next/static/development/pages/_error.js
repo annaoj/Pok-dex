@@ -23,40 +23,40 @@ __webpack_require__.r(__webpack_exports__);
 
 var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   }, "Pokedex"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "description",
     content: "a web applicaion to display pokemons ",
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "robots",
     content: "noindex, nofollow",
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     charSet: "utf-8",
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1, shrink-to-fit=no",
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
     integrity: "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO",
     crossOrigin: "anonymous",
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
     src: "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js",
     integrity: "sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy",
     crossOrigin: "anonymous",
-    className: "jsx-2501554752"
+    className: "jsx-1335254606"
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2501554752" + " " + "container"
+    className: "jsx-1335254606" + " " + "container"
   }, props.children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2501554752"
-  }, "body{background:#fbf8f8;font:11px menlo;font-family:Helvetica;}.bg-primary{background-color:#FF6862!important;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CdUIsQUFHNEIsQUFLZ0IsbUJBSm5CLGdCQUNNLEFBSTFCLHNCQUhFIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEsIHNocmluay10by1maXQ9bm9cIiAvPlxuICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL3N0YWNrcGF0aC5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjEuMy9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIiBpbnRlZ3JpdHk9XCJzaGEzODQtTUN3OTgvU0ZuR0U4ZkpUM0dYd0VPbmdzVjdadDI3TlhGb2FvQXBtWW04MWl1WG9Qa0ZPSndKOEVSZGtuTFBNT1wiIGNyb3NzT3JpZ2luPVwiYW5vbnltb3VzXCIvPlxuICAgICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3N0YWNrcGF0aC5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjEuMy9qcy9ib290c3RyYXAubWluLmpzXCIgaW50ZWdyaXR5PVwic2hhMzg0LUNoZnFxeHVaVUNuSlNLMytNWG1QTkl5RTZaYldoMklNcUUyNDFyWWlxSnh5TWlaNk9XL0ptWlE1c3R3RVVMVHlcIiBjcm9zc09yaWdpbj1cImFub255bW91c1wiPjwvc2NyaXB0PiAgICAgXG5cbiAgICA8L0hlYWQ+XG4gICAgPE5hdmJhci8+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIHtwcm9wcy5jaGlsZHJlbn1cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgYm9keSB7IFxuICAgICAgICBiYWNrZ3JvdW5kOiAjZmJmOGY4O1xuICAgICAgICBmb250OiAxMXB4IG1lbmxvO1xuICAgICAgICBmb250LWZhbWlseTogSGVsdmV0aWNhO1xuICAgICAgfVxuICAgICAgLmJnLXByaW1hcnkge1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkY2ODYyIWltcG9ydGFudDtcbiAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDsiXX0= */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
+    id: "1335254606"
+  }, "body{background:#fbf8f8;font:14px menlo;font-family:Helvetica;}.bg-primary{background-color:#FF6862!important;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CdUIsQUFHNEIsQUFLZ0IsbUJBSm5CLGdCQUNNLEFBSTFCLHNCQUhFIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEsIHNocmluay10by1maXQ9bm9cIiAvPlxuICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL3N0YWNrcGF0aC5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjEuMy9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIiBpbnRlZ3JpdHk9XCJzaGEzODQtTUN3OTgvU0ZuR0U4ZkpUM0dYd0VPbmdzVjdadDI3TlhGb2FvQXBtWW04MWl1WG9Qa0ZPSndKOEVSZGtuTFBNT1wiIGNyb3NzT3JpZ2luPVwiYW5vbnltb3VzXCIvPlxuICAgICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3N0YWNrcGF0aC5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjEuMy9qcy9ib290c3RyYXAubWluLmpzXCIgaW50ZWdyaXR5PVwic2hhMzg0LUNoZnFxeHVaVUNuSlNLMytNWG1QTkl5RTZaYldoMklNcUUyNDFyWWlxSnh5TWlaNk9XL0ptWlE1c3R3RVVMVHlcIiBjcm9zc09yaWdpbj1cImFub255bW91c1wiPjwvc2NyaXB0PiAgICAgXG5cbiAgICA8L0hlYWQ+XG4gICAgPE5hdmJhci8+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIHtwcm9wcy5jaGlsZHJlbn1cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgYm9keSB7IFxuICAgICAgICBiYWNrZ3JvdW5kOiAjZmJmOGY4O1xuICAgICAgICBmb250OiAxNHB4IG1lbmxvO1xuICAgICAgICBmb250LWZhbWlseTogSGVsdmV0aWNhO1xuICAgICAgfVxuICAgICAgLmJnLXByaW1hcnkge1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkY2ODYyIWltcG9ydGFudDtcbiAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDsiXX0= */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -96,7 +96,7 @@ var Navbar = function Navbar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about"
+    href: "https://github.com/annaoj/Pok-dex/blob/master/README.md"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link active"
   }, "About")))))));
