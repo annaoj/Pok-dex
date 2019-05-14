@@ -6,7 +6,7 @@ class Pokemon extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            errors: {},
+            error: false,
             name: '',
             imgUrl: '',
             pokeId: '',
@@ -18,22 +18,24 @@ class Pokemon extends Component {
 
 
     componentDidMount() {
-        const { url, name } = this.props;
-        const pokeId = url.split('/')[url.split('/').length - 2];
-        const imgUrl = getPokeImg(pokeId);
+        const { url } = this.props;
+        if(!this.props) this.setState({ error :true });
+        const pokeId = url ? url.split('/')[url.split('/').length - 2] : null;
+        const imgUrl = pokeId ? getPokeImg(pokeId) : null;
         this.setState({ imgUrl, pokeId });
     }
 
     render() {
         const { pokemonData, name, url } = this.props;
-        const { pokeId, imgUrl } = this.state;
+        const { pokeId, imgUrl, error } = this.state;
 
-        if (!this.props) return (
+        if (!this.props || error) return (
             <div>
                 <p>Error with data</p>
             </div>
         );
 
+        
         return (
             <div className="col-sm-6 col-md-4 col-lg-3 mt-4">
              <Link href={`/pokemon?id=${pokeId}`}>
@@ -45,15 +47,8 @@ class Pokemon extends Component {
                     />
                     <div className="card-block">
                         <h6 className="card-title text-center  mt-2">{pokeId}. {name.toUpperCase()}</h6>
-                        {/* <div className="card-text mx-auto">
-                            {url}
-                        </div> */}
                     </div>
-                    {/* <div className="card-footer"> */}
-
-                            {/* <a>{pokeId}.{name} details</a> */}
-                       
-                    {/* </div> */}
+                    
                 </div>
                 </Link>
                 <style jsx>
@@ -71,9 +66,10 @@ class Pokemon extends Component {
                             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
                             transition: all 0.56s cubic-bezier(0.25, 0.8, 0.25, 1);
                             max-width: 500px;
-                            padding: 40px;
+                            padding: 30px;
                             margin: 10px auto;
                             cursor: pointer;
+                            max-height: 225px;
                         }
                         
                         .poke-card:hover, .poke-card:focus {

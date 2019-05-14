@@ -27,11 +27,9 @@ class PokemonList extends Component {
       </div>
     );
 
-
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     const currentItems = pokemonData && pokemonData.pokemon_entries.slice(indexOfFirstItem, indexOfLastItem);
-
     const renderItems = currentItems.map((poke, i) => {
       return (
             <Pokemon

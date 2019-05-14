@@ -7,7 +7,10 @@
     "dev": "node server.js",
     "start": "NODE_ENV=production node server.js",
     "build": "next build",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "next build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   "homepage": "https://github.com/annaoj/Pok-dex#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "eslint": "^5.16.0",
     "imagemin-gifsicle": "^6.0.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^6.0.0",
@@ -29,13 +33,24 @@
     "next": "^8.1.0",
     "next-optimized-images": "^2.5.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.0.0-beta.5",
+    "react-test-renderer": "16.0.0-alpha.12",
     "svg-sprite-loader": "^4.1.6",
     "sw-precache-webpack-plugin": "^0.11.5",
     "webp-loader": "^0.4.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-styled-components": "1.5.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
     "eslint-plugin-react": "^7.13.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.1"
+    "jest": "^24.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "^16.0.0-alpha.12"
   }
 }

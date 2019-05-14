@@ -7,8 +7,6 @@ return <div>
     <Layout>
         {statusCode ? `Could not load data: Status code ${statusCode}`
          : `Could not load data`}
-    {/* <h1>Oops</h1>
-    <p>Go to <Link href='/'><a>go back</a></Link></p> */}
     </Layout>
 </div>
 }

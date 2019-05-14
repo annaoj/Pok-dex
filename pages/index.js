@@ -6,10 +6,8 @@ import PokemonList from '../components/Pokemon/PokemonList';
 import Pokemon from '../components/Pokemon/Pokemon';
 import Error from './_error';
 import Link from 'next/link';
-// const Index = (props) => (
+
 export default class Index extends Component {
-
-
   static async getInitialProps({ req, res, query }) {
     let pokemonData = null;
 
@@ -38,23 +36,20 @@ export default class Index extends Component {
   }
 
   render() {
-    const { statusCode, pokemonData, offset,
-      page } = this.props;
-    if (pokemonData.length == 0 || !pokemonData) {
+    const { pokemonData } = this.props;
+    if (!pokemonData) {
       return <Error statusCode={503} />
     }
 
     return (
       <Layout>
         <div className="container">
-          <h1>Welcome to Pokedex.org</h1>
+          <h6>Welcome to Pokemon National world!</h6>
           <PokemonList pokemonData={pokemonData} />
         </div>
       </Layout>
     )
   }
-
-
 }
 
 
