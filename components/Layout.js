@@ -8,12 +8,10 @@ const Layout = (props) => (
       <meta name="description" content= "a web applicaion to display pokemons " />
       <meta name="robots" content="noindex, nofollow" />
       <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>     
 
-      <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css" 
-      rel="stylesheet" 
-      integrity="sha384-ciphE0NCAlD2/N6NUApXAN2dAs/vcSAOTzyE202jJx3oS8n4tAQezRgnlHqcJ59C" 
-      crossOrigin="anonymous" />
     </Head>
     <Navbar/>
     <div className="container">
@@ -25,6 +23,9 @@ const Layout = (props) => (
         font: 11px menlo;
         font-family: Helvetica;
       }
+      .bg-primary {
+        background-color: #FF6862!important;
+    }
     `}</style>
   </div>
 );

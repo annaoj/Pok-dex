@@ -13,7 +13,6 @@ class Pokemon extends Component {
     try {
       const resSpecies = await axios(`https://pokeapi.co/api/v2/pokemon-species/${query.id}/`);
       const resPokemon = await axios(`https://pokeapi.co/api/v2/pokemon/${query.id}/`);
-      // const res = await axios(`https://pokeapi.co/api/v2/pokemon-species/${query.id}/`);
 
       speciesDetails = resSpecies.data;
       pokemonDetails = resPokemon.data;
@@ -27,7 +26,19 @@ class Pokemon extends Component {
       pokemonDetails,
       speciesDetails
     };
+  }
 
+  componentDidMount() {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then(registration => {
+          console.log("service worker registration successful", registration);
+        })
+        .catch(err => {
+          console.warn("service worker registration failed", err.message);
+        });
+    }
   }
 
 
