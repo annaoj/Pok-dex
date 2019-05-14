@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import { getPokeImg, getImgFromUrl } from '../../utils/pokeImage';
-import { PokeTypeColors } from '../../utils/pokeColor';
+import { PokeTypeColors, PokeColors } from '../../utils/pokeColor';
+import Router from 'next/router'
+
 class PokeInfo extends Component {
     constructor(props) {
         super(props);
@@ -33,7 +35,7 @@ class PokeInfo extends Component {
         const { lang } = this.state;
         const imgUrl = getPokeImg(speciesDetails.id);
         const bkgColor = speciesDetails.color.name;
-        document.body.style = `background:${bkgColor}`;
+        document.body.style = `background:${PokeColors[speciesDetails.color.name]}`;
 
 
         let speciesInfo = {};
@@ -209,7 +211,11 @@ class PokeInfo extends Component {
 
         return (
             <div className="col-12 col-sm-10 col-md-8 mx-auto">
+            <div className="row">
+           
+            </div>
                 <div className="card poke-card" >
+                <div className="backLink mt-2 ml-3" onClick={() => Router.back()}> &#8592; Back</div>
                     <img
                         className="  mx-auto mt-2 pokeImg"
                         src={imgUrl || null}
@@ -244,7 +250,7 @@ class PokeInfo extends Component {
                         <div
                             className="sectionHeader mb-3"
                             style={{
-                                backgroundColor: this.state.bkgColor,
+                                backgroundColor: PokeColors[speciesDetails.color.name],
                                 color: 'white',
                                 padding: '4px'
                             }}>
@@ -374,7 +380,7 @@ class PokeInfo extends Component {
                             <div
                                 className="sectionHeader mb-3"
                                 style={{
-                                    backgroundColor: this.state.bkgColor,
+                                    backgroundColor: PokeColors[speciesDetails.color.name],
                                     color: 'white',
                                     padding: '4px'
                                 }}>
@@ -417,7 +423,10 @@ class PokeInfo extends Component {
                             width: auto;
 
                         }
-
+                        .backLink{
+                            font-size: 16px;
+                            cursor: pointer;
+                        }
                         .poke-card {
                             border-radius: 2px;
                             background: #fff;

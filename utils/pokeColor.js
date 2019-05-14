@@ -18,3 +18,17 @@ export const PokeTypeColors ={
     ice: '#98D8D8',
     flying: '#A890F0'
 };
+
+export const PokeColors ={
+    black: "black",
+    blue: "#368DF7",
+    brown: "#A56333",
+    gray: "gray",
+    green: "green",
+    pink: "pink",
+    purple: "purple",
+    red: "#990A09",
+    white: "white",
+    yellow: "#c4b100",
+
+}

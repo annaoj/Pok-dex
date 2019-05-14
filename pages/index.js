@@ -10,30 +10,20 @@ import Link from 'next/link';
 export default class Index extends Component {
 
 
-  static async getInitialProps({req, res, query}) {
+  static async getInitialProps({ req, res, query }) {
     let pokemonData = null;
 
     try {
-
-      // const res = await axios('https://pokeapi.co/api/v2/pokedex/1/?limit=20&offset=20');
-      // const res = await axios(`http://pokeapi.co/api/v2/pokemon/?limit=721&offset=${offset}`);
       const res = await axios(`https://pokeapi.co/api/v2/pokedex/1`);
-
       pokemonData = res.data;
-
-
     } catch (error) {
-
       pokemonData = null;
-
     }
-
-    // const statusCode = res.status > 200 ? res.status : false;
     return {
       pokemonData
     };
-
   }
+
   componentDidMount() {
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker
@@ -46,6 +36,7 @@ export default class Index extends Component {
         });
     }
   }
+
   render() {
     const { statusCode, pokemonData, offset,
       page } = this.props;

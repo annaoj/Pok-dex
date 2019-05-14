@@ -39,17 +39,13 @@ var Layout = function Layout(props) {
     className: "jsx-3805482049"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "viewport",
-    content: "width=device-width, initial-scale=1",
-    className: "jsx-3805482049"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
-    type: "text/javascript",
-    src: "node_modules/bootstrap/dist/js/bootstrap.min.js",
+    content: "width=device-width, initial-scale=1, shrink-to-fit=no",
     className: "jsx-3805482049"
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3805482049" + " " + "container"
   }, props.children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3805482049"
-  }, "body{background:#fbf8f8;font:11px menlo;font-family:Helvetica;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCdUIsQUFHNEIsbUJBQ0gsZ0JBQ00sc0JBQ3hCIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgPHNjcmlwdCB0eXBlPVwidGV4dC9qYXZhc2NyaXB0XCIgc3JjPVwibm9kZV9tb2R1bGVzL2Jvb3RzdHJhcC9kaXN0L2pzL2Jvb3RzdHJhcC5taW4uanNcIj48L3NjcmlwdD5cblxuICAgICAgey8qIDxsaW5rIGhyZWY9XCJodHRwczovL3N0YWNrcGF0aC5ib290c3RyYXBjZG4uY29tL2Jvb3Rzd2F0Y2gvNC4zLjEvam91cm5hbC9ib290c3RyYXAubWluLmNzc1wiIFxuICAgICAgcmVsPVwic3R5bGVzaGVldFwiIFxuICAgICAgaW50ZWdyaXR5PVwic2hhMzg0LWNpcGhFME5DQWxEMi9ONk5VQXBYQU4yZEFzL3ZjU0FPVHp5RTIwMmpKeDNvUzhuNHRBUWV6UmdubEhxY0o1OUNcIiBcbiAgICAgIGNyb3NzT3JpZ2luPVwiYW5vbnltb3VzXCIgLz4gKi99XG4gICAgPC9IZWFkPlxuICAgIDxOYXZiYXIvPlxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICB7cHJvcHMuY2hpbGRyZW59XG4gICAgPC9kaXY+XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIGJvZHkgeyBcbiAgICAgICAgYmFja2dyb3VuZDogI2ZiZjhmODtcbiAgICAgICAgZm9udDogMTFweCBtZW5sbztcbiAgICAgICAgZm9udC1mYW1pbHk6IEhlbHZldGljYTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0OyJdfQ== */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
+  }, "body{background:#fbf8f8;font:11px menlo;font-family:Helvetica;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFCdUIsQUFHNEIsbUJBQ0gsZ0JBQ00sc0JBQ3hCIiwiZmlsZSI6Ii9Vc2Vycy9hbm5hamltZW5lei9Qcm9qZWN0cy9Qb2tlZGV4QXBwL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Qb2tlZGV4PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9IFwiYSB3ZWIgYXBwbGljYWlvbiB0byBkaXNwbGF5IHBva2Vtb25zIFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIm5vaW5kZXgsIG5vZm9sbG93XCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEsIHNocmluay10by1maXQ9bm9cIiAvPlxuXG4gICAgICB7LyogPGxpbmsgaHJlZj1cImh0dHBzOi8vc3RhY2twYXRoLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN3YXRjaC80LjMuMS9qb3VybmFsL2Jvb3RzdHJhcC5taW4uY3NzXCIgXG4gICAgICByZWw9XCJzdHlsZXNoZWV0XCIgXG4gICAgICBpbnRlZ3JpdHk9XCJzaGEzODQtY2lwaEUwTkNBbEQyL042TlVBcFhBTjJkQXMvdmNTQU9UenlFMjAyakp4M29TOG40dEFRZXpSZ25sSHFjSjU5Q1wiIFxuICAgICAgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIiAvPiAqL31cbiAgICA8L0hlYWQ+XG4gICAgPE5hdmJhci8+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIHtwcm9wcy5jaGlsZHJlbn1cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgYm9keSB7IFxuICAgICAgICBiYWNrZ3JvdW5kOiAjZmJmOGY4O1xuICAgICAgICBmb250OiAxMXB4IG1lbmxvO1xuICAgICAgICBmb250LWZhbWlseTogSGVsdmV0aWNhO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7Il19 */\n/*@ sourceURL=/Users/annajimenez/Projects/PokedexApp/components/Layout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -13512,7 +13508,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/annajimenez/Projects/PokedexApp/pages/index.js";
 
 
 
@@ -13555,41 +13550,14 @@ function (_Component) {
 
       if (pokemonData.length == 0 || !pokemonData) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_error__WEBPACK_IMPORTED_MODULE_13__["default"], {
-          statusCode: 503,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 53
-          },
-          __self: this
+          statusCode: 503
         });
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, "Welcome to Pokedex.org"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Pokemon_PokemonList__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        pokemonData: pokemonData,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_9__["default"], null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", null, "Welcome to Pokedex.org"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Pokemon_PokemonList__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        pokemonData: pokemonData
       })));
     }
   }], [{

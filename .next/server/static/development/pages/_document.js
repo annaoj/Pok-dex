@@ -2103,7 +2103,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/annajimenez/Projects/PokedexApp/pages/_document.js";
 
 
 
@@ -2122,157 +2121,63 @@ function (_Document) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("html", {
-        lang: "en-US",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Head"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        lang: "en-US"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Head"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "manifest",
-        href: "/static/manifest.json",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
+        href: "/static/manifest.json"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "mobile-web-app-capable",
-        content: "yes",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
+        content: "yes"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "apple-mobile-web-app-capable",
-        content: "yes",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
+        content: "yes"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "application-name",
-        content: "poker-dex",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
+        content: "poker-dex"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "apple-mobile-web-app-title",
-        content: "poker-dex",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
+        content: "poker-dex"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "theme-color",
-        content: "#764CB2",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
+        content: "#764CB2"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "msapplication-navbutton-color",
-        content: "#764CB2",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
+        content: "#764CB2"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "apple-mobile-web-app-status-bar-style",
-        content: "black-translucent",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
+        content: "black-translucent"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "msapplication-starturl",
-        content: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
+        content: "/"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "viewport",
-        content: "width=device-width, initial-scale=1, shrink-to-fit=no",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
+        content: "width=device-width, initial-scale=1, shrink-to-fit=no"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        href: "https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css",
+        rel: "stylesheet",
+        integrity: "sha384-ciphE0NCAlD2/N6NUApXAN2dAs/vcSAOTzyE202jJx3oS8n4tAQezRgnlHqcJ59C",
+        crossOrigin: "anonymous"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "icon",
         type: "image/png",
         sizes: "512x512",
-        href: "/static/icons/icon-512x512.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
+        href: "/static/icons/icon-512x512.png"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "apple-touch-icon",
         type: "image/png",
         sizes: "512x512",
-        href: "/static/icons/icon-512x512.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
+        href: "/static/icons/icon-512x512.png"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "icon",
         type: "image/png",
         sizes: "192x192",
-        href: "/static/icons/icon-192x192.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
+        href: "/static/icons/icon-192x192.png"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "apple-touch-icon",
         type: "image/png",
         sizes: "192x192",
-        href: "/static/icons/icon-192x192.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("body", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Main"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["NextScript"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      })));
+        href: "/static/icons/icon-192x192.png"
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Main"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["NextScript"], null)));
     }
   }]);
 
