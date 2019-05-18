@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
 import { getPokeImg, getImgFromUrl } from '../../utils/pokeImage';
 import { PokeTypeColors, PokeColors } from '../../utils/pokeColor';
 import Router from 'next/router'

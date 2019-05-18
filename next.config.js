@@ -1,8 +1,8 @@
 const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
 const withOptimizedImages = require('next-optimized-images');
 const webpack = require('webpack');
-
-module.exports = withOptimizedImages(
+const withCss = require('@zeit/next-css');
+module.exports = withOptimizedImages(withCss(
   
     {
       handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
@@ -40,4 +40,4 @@ module.exports = withOptimizedImages(
          return config
       }
    }
-);
+));

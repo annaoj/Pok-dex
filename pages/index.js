@@ -3,9 +3,8 @@ import fetch from 'isomorphic-unfetch';
 import Layout from '../components/Layout';
 import axios from 'axios';
 import PokemonList from '../components/Pokemon/PokemonList';
-import Pokemon from '../components/Pokemon/Pokemon';
 import Error from './_error';
-import Link from 'next/link';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Index extends Component {
   static async getInitialProps({ req, res, query }) {
