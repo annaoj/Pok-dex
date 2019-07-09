@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 const Navbar = () => (
   <nav className="navbar navbar-expand navbar-dark bg-primary mb-4">
     <div className="container">

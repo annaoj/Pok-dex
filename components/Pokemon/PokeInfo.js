@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { getPokeImg, getImgFromUrl } from '../../utils/pokeImage';
 import { PokeTypeColors, PokeColors } from '../../utils/pokeColor';
 import Router from 'next/router'
-
+import ProgressBar from 'react-bootstrap/ProgressBar';
+import 'bootstrap/dist/css/bootstrap-reboot.min.css';
 class PokeInfo extends Component {
     constructor(props) {
         super(props);
@@ -187,22 +188,10 @@ class PokeInfo extends Component {
                         <p className="ml-3 ">{name.toUpperCase()}</p>
                     </div>
 
-                    <div className='col-md-9 '>
-                        <div className="progress ml-3 mr-3">
-                            <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{
-                                    width: `${stats[stat]}%`
-                                }}
-                                aria-valuenow="100"
-                                aria-valuemin="0"
-                                aria-valuemax="100">
-                                <small>{stats[stat]}</small>
-                            </div>
+          
 
-                        </div>
-                    </div>
+
+              
                 </div>
             )
         })
@@ -210,6 +199,11 @@ class PokeInfo extends Component {
 
         return (
             <div className="col-12 col-sm-10 col-md-8 mx-auto">
+                                <ProgressBar>
+  <ProgressBar striped variant="success" now={35} key={1} />
+  <ProgressBar variant="warning" now={20} key={2} />
+  <ProgressBar striped variant="danger" now={10} key={3} />
+</ProgressBar>
             <div className="row">
            
             </div>

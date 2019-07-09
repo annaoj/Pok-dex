@@ -32,11 +32,6 @@ module.exports = withOptimizedImages(withCss(
               ]
             })
          );
-
-         // config.optimization.minimizer.push(
-         //    new OptimizeCSSAssetsPlugin({})
-         // );
-
          return config
       }
    }

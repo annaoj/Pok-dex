@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import axios from 'axios';
 import PokemonList from '../components/Pokemon/PokemonList';
 import Error from './_error';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
 export default class Index extends Component {
   static async getInitialProps({ req, res, query }) {
@@ -43,7 +43,7 @@ export default class Index extends Component {
     return (
       <Layout>
         <div className="container">
-          <h6>Welcome to Pokemon National world!</h6>
+          <h3>Welcome to Pokemon National world!</h3>
           <PokemonList pokemonData={pokemonData} />
         </div>
       </Layout>

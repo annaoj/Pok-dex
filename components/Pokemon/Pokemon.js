@@ -15,14 +15,26 @@ class Pokemon extends Component {
         };
 
     }
+    static getDerivedStateFromProps(props, state){
+        // console.log(props);
+        // console.log(state);
+        if( state.pokeId !== props.pokeId){
+            const imgUrl = props.pokeId ? getPokeImg(props.pokeId) : null;
+            const pokeId = props.pokeId;
+            // this.setState({ imgUrl });
+            return {imgUrl, pokeId};
+        }
+
+    }
+
 
 
     componentDidMount() {
         const { url } = this.props;
         if(!this.props) this.setState({ error :true });
         const pokeId = url ? url.split('/')[url.split('/').length - 2] : null;
-        const imgUrl = pokeId ? getPokeImg(pokeId) : null;
-        this.setState({ imgUrl, pokeId });
+        //const imgUrl = pokeId ? getPokeImg(pokeId) : null;
+        this.setState({ pokeId });
     }
 
     render() {
@@ -46,7 +58,7 @@ class Pokemon extends Component {
                         alt={name}
                     />
                     <div className="card-block">
-                        <h6 className="card-title text-center  mt-2">{pokeId}. {name.toUpperCase()}</h6>
+                        <p className="card-title text-center  mt-2">{pokeId}. {name.toUpperCase()}</p>
                     </div>
                     
                 </div>

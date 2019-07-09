@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Pokemon from './Pokemon';
-
+import './pokemonList.css';
 class PokemonList extends Component {
   constructor(props) {
     super(props);
@@ -51,14 +51,14 @@ class PokemonList extends Component {
     
     const renderPageNumbers = pageNumbers.map(number => {
       return (
-        <button
-        className="button is-light mr-2"
+        <div
+        className="button pageNumber is-light mr-3"
           key={number}
           id={number}
           onClick={this.handleClick}
         >
           {number}
-        </button>
+        </div>
       );
     });
 

@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import axios from 'axios';
 import PokeInfo from '../components/Pokemon/PokeInfo';
 import Error from './_error';
-import Link from 'next/link';
+
 
 class Pokemon extends Component {
 
